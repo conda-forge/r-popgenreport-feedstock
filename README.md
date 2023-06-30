@@ -1,11 +1,11 @@
-About r-popgenreport
-====================
+About r-popgenreport-feedstock
+==============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-popgenreport-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/green-striped-gecko/PopGenReport
 
 Package license: GPL-2.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-popgenreport-feedstock/blob/main/LICENSE.txt)
 
 Summary: Provides beginner friendly framework to analyse population genetic data. Based on 'adegenet' objects it uses 'knitr' to create comprehensive reports on spatial genetic data. For detailed information how to use the package refer to the comprehensive tutorials or visit <http://www.popgenreport.org/>.
 
