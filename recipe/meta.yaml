@@ -1,4 +1,4 @@
-{% set version = '3.0.7' %}
+{% set version = "3.1" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/PopGenReport_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/PopGenReport/PopGenReport_{{ version }}.tar.gz
-  sha256: 804c5ae4f24a4ba7e3ed34913b6d8661f08fec9c84366cd6a0d7b3dc951f2e37
+  sha256: fac593cc99869735f61f338d0ea856d34c5727054e2938ddcfd9fe894e08aea5
 
 build:
-  merge_build_host: True  # [win]
-  number: 2
+  merge_build_host: true  # [win]
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -81,10 +81,7 @@ test:
 about:
   home: https://github.com/green-striped-gecko/PopGenReport
   license: GPL-2.0-or-later
-  summary: Provides beginner friendly framework to analyse population genetic data. Based on
-    'adegenet' objects it uses 'knitr' to create comprehensive reports on spatial genetic
-    data. For detailed information how to use the package refer to the comprehensive
-    tutorials or visit <http://www.popgenreport.org/>.
+  summary: Provides beginner friendly framework to analyse population genetic data. Based on 'adegenet' objects it uses 'knitr' to create comprehensive reports on spatial genetic data. For detailed information how to use the package refer to the comprehensive tutorials or visit <http://www.popgenreport.org/>.
   license_family: GPL
   license_file:
     - '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2'
