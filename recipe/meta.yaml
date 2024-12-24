@@ -42,7 +42,6 @@ requirements:
     - r-plyr
     - r-raster
     - r-reshape
-    - r-rgdal
     - r-sp
     - r-vegan
     - r-xtable
@@ -66,7 +65,6 @@ requirements:
     - r-plyr
     - r-raster
     - r-reshape
-    - r-rgdal
     - r-sp
     - r-vegan
     - r-xtable
